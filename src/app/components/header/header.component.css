@@ -1,0 +1,31 @@
+header{
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+header .header-container{
+  display: flex;
+  width: 1170px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container img{
+  height: 40px;
+  width: 189px;
+}
+
+nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #5F5F5F;
+  margin-left: 6;
+}
